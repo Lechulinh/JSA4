@@ -1,0 +1,19 @@
+.red {
+    background-color: red;
+}
+.red:hover {
+    background-color: blue;
+}
+.clock {
+    display: flex;
+    background-color: rgb(176, 141, 0);
+    justify-content: center;
+}
+.time {
+    display: flex;
+    font-size: 30px;
+}
+.clock .time p {
+    color:aliceblue;
+    text-shadow: 2px 1px 1px black;
+}

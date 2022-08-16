@@ -200,10 +200,63 @@
   }
   .b2 {
     width: 25%;
+    padding: 10px;
   }
   .city-text {
     font-size: 18px;
   }
   .b2 img {
-    object-fit: fill;
+    width: 100%;
+  }
+  #section-7 #seventh-part-a .title {
+    text-transform: uppercase;
+    margin: 0px 0px 20px 0px;
+    padding: 50px 0px 0px 0px;
+    opacity: 0.7;
+    text-align: right;
+    margin-right: 70px;
+  }
+  #section-7 #seventh-part-a hr {
+    height: 2.5px;
+    background-color: #f18b31;
+    width: 7%;
+    border: none;
+    margin-left: 75%;
+    margin-bottom: 20px;
+  }
+  /* #seventh-part-b {
+    display: flex;
+  } */
+  .b3 {
+    display: flex;
+    padding: 10px;
+  }
+  #section-7 #seventh-part-b {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    /* margin: 0px 0px; */
+    width: 200px;
+  }
+  .b3 {
+    justify-content: flex-end;
+  }
+  input {
+    width: 350px;
+    height: 30px;
+  }
+  select {
+    width: 350px;
+    height: 30px;
+  }
+  textarea {
+    width: 350px;
+    height: 30px;
+  }
+  button {
+    background-color: #f18b31;
+  }
+  .submit {
+    justify-content: flex-end;
   }
